@@ -16,79 +16,103 @@
     <link rel="icon" href="assets/tech-moms-logo-2021.PNG" type="image/x-icon">
     <!-- We are importing icons here -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-
     <!-- Header -->
     <header class="header-container">
-        <div class="logo_container">
-            <div id="logo_image"> <img src="assets/boy_book_logo.png" alt="the boy book" width="400"> </div>
+        <div class="left-header">
+            <div class="hamburger-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
 
-            <h1 class="subtitle">a social media relationship app</h1>
-        </div>
+            <div class="logo_container">
+                <div id="logo_image"> <img src="assets/boy_book_logo.png" alt="the boy book" width="400"> </div>
 
-        <div class="download-container">
-            <img src="assets/boy book icon.png" alt="app-icon" width="100">
-            <img src="" alt="">
+                <h1 class="subtitle">a social media relationship app</h1>
+            </div>
         </div>
 
         <!-- Navigation -->
-        <nav class="nav-container">
-            <a href="#">About</a>
-            <a href="#">Cohorts</a>
-            <a href="#">Resources</a>
-            <a href="#">Contact Us</a>
+
+        <nav>
+            <div class="header-elements">
+                <div class="download-container">
+                    <img src="assets/boy book icon.png" alt="app-icon" width="100">
+                </div>
+                <input class="download" type="button" value="download">
+            </div>
         </nav>
+        </div>
     </header>
 
-
     <main class="main-container">
-        <!-- SECTION SECTION -->
-        <section class="mainimage-container">
-            <!-- This section is displaying our image that we set in the CSS -->
-        </section>
+        <p class="headings">How It Works</p>
 
-        <!-- SIDEBAR -->
-        <aside class="sidebar-container">
-            <h2 class="sidebar-title">Featured Stories</h2>
-            <h3 class="sidebar-subtitle">Once a Tech-Mom, always a Tech-Mom</h3>
-
-            <p class="">
-                Tempora in nesciunt qui. Quae et fugiat maxime.
-                Quod occaecati veritatis eos libero error. Aliquid
-                ad ut dolor et quis voluptatem adipisci porro.
-            </p>
-
-
-            <button class="">
-                Read More
-                <i class="fas fa-arrow-right"></i>
-            </button>
-
-
-        </aside>
-
-    </main>
-    <!-- Footer -->
-    <footer class="">
-        <div class="">
-            <a href="https://www.facebook.com/groups/515557616086129">
-                <i class="fab fa-facebook-square fa-3x "></i>
-            </a>
-            <a href="https://www.linkedin.com/company/tech-moms/">
-                <i class="fab fa-linkedin fa-3x "></i>
-            </a>
-            <a href="https://www.instagram.com/tech.moms/">
-                <div class="">
-                    <i class="fab fa-instagram fa-2x "></i>
-                </div>
-            </a>
+        <div class="mainimage-container">
+            <section class="steps-images">
+                <span class="shadow"><img src="assets/add-boy-page.png" alt="step-one" width="200"></span>
+                <span class="shadow"><img src="assets/john-snow-cropped.png" alt="step-two" width="200"></span>
+                <span class="shadow"><img src="assets/add-friends-page.png" alt="step-three" width="200"></span>
+                <span class="shadow"><img src="assets/friends-page.png" alt="step-four" width="200"></span>
+            </section>
         </div>
 
+        <span class="first-steps">
+            <div class="first-step">
+                <p class="steps-numbers"> 1. </p>
+                <p class="steps-instructions"> Add your boy including a picture and details.</p>
+            </div>
+            <div class="second-step">
+                <p class="steps-numbers">2. </p>
+                <p class="steps-instructions">Invite your friends.</p>
+            </div>
+        </span>
+        <p class="headings">Then</p>
+        <div class="third-step">
+            <p class="steps-numbers">3.</p>
+            <p class="steps-instructions">Share your boys with your friends and get updates as their boys change.
+            </p>
+        </div>
+        <div class=bottom-section>
+            <div class="icon-elements">
+                <img src="assets/boy book icon.png" alt="app-icon" width="150">
+                <input class="download" type="button" value="download">
+            </div>
+            <div class="third-step-image">
+                <span class="shadow"><img src="assets/share-friends-page.png" alt="share-with-friends"
+                        width="250"></span>
+            </div>
+            <ul class="premium-features">
+                <p>Premium Features:
+                    (coming soon)
+                </p>
+                <br>
+                <li>Unlimited Boys!</li>
+                <li>Photo Vault</li>
+                <li>In-app chat</li>
+                <li>Avatar Build or draw him</li>
+                <li>Direct Social Media Links</li>
+                <li>Customizable Skins</li>
+                <li>Date Details page</li>
+                <li>Sex Details box</li>
+                <li>Notes Page</li>
+                <li>Memorable Moments Page</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
         <div>
             Copyright 2023, all rights reserved
         </div>
@@ -96,5 +120,18 @@
     </div>
 
 </body>
+<div class="">
+    <a href="https://www.facebook.com/groups/515557616086129">
+        <i class="fab fa-facebook-square fa-3x "></i>
+    </a>
+    <a href="https://www.linkedin.com/company/tech-moms/">
+        <i class="fab fa-linkedin fa-3x "></i>
+    </a>
+    <a href="https://www.instagram.com/tech.moms/">
+        <div class="">
+            <i class="fab fa-instagram fa-2x "></i>
+        </div>
+    </a>
+
 
 </html>
